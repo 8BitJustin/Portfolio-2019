@@ -196,7 +196,7 @@ body {
 /* About */
 
 .about-page {
-  padding: 140px 30px;
+  padding: 80px 30px;
   background-color: whitesmoke;
   display: flex;
   flex-direction: column;
@@ -227,6 +227,10 @@ body {
   line-height: 1.8;
 }
 
+.details-container ul {
+  padding-left: 20px;
+}
+
 .details-container > ul > li {
   font-size: 0.8em;
   padding-top: 10px;
@@ -236,10 +240,16 @@ body {
   margin-top: 30px;
 }
 
+.langHighlight {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
 /* Work */
 
 .work-page {
-  padding: 140px 30px;
+  padding: 80px 30px;
   background-color: whitesmoke;
 }
 
