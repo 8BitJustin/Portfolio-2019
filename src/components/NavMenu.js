@@ -26,7 +26,7 @@ class NavMenu extends Component {
         >
           Work
         </Link>
-        <Link
+        {/* <Link
           activeClass="active"
           to="blog"
           spy={true}
@@ -35,7 +35,7 @@ class NavMenu extends Component {
           duration={500}
         >
           Blog
-        </Link>
+        </Link> */}
         <Link
           activeClass="active"
           to="contact"

@@ -43,7 +43,7 @@ class NavMenuOverlay extends Component {
                 Work
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 activeClass="active"
                 to="blog"
@@ -55,7 +55,7 @@ class NavMenuOverlay extends Component {
               >
                 Blog
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 activeClass="active"

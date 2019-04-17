@@ -244,6 +244,7 @@ body {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
+  letter-spacing: 1px;
 }
 
 /* Work */
@@ -347,6 +348,78 @@ body {
 .contact-page {
   height: 100vh;
   background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-interior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: none;
+  width: 80%;
+}
+
+.email-container {
+  text-align: center;
+  height: 60px;
+}
+
+.resume-container {
+  text-align: center;
+  height: 60px;
+}
+
+.contact-interior img {
+  width: 140px;
+}
+
+.contact-img-container {
+  order: -1;
+  padding-bottom: 20px;
+}
+
+.email {
+  display: none;
+}
+
+.actual {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 60px;
+}
+
+.resume-dl {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  line-height: 60px;
+}
+
+.email-container a,
+.resume-container a {
+  text-decoration: none;
+}
+
+.email-container a:link,
+.email-container a:visited,
+.resume-container a:link,
+.resume-container a:visited {
+  color: black;
+}
+
+/* Footer */
+
+.footer-container {
+  height: 60px;
+  background-color: whitesmoke;
+}
+
+.footer-container div {
+  text-align: center;
+  line-height: 60px;
 }
 
 /***********************************************/
@@ -440,6 +513,18 @@ body {
   .project_site {
     font-size: 1.2em;
   }
+
+  /* Contact Section */
+
+  .contact-interior img {
+    width: 200px;
+  }
+
+  /* Footer */
+
+  .footer-container div {
+    font-size: 1.2em;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -447,6 +532,36 @@ body {
   .self-container img {
     width: 300px;
     border-radius: 150px;
+  }
+
+  /* Contact Section */
+
+  .contact-interior {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .contact-img-container {
+    order: 0;
+  }
+
+  .email-container {
+    text-align: center;
+    width: 260px;
+    height: 60px;
+  }
+
+  .resume-container {
+    text-align: center;
+    width: 260px;
+    height: 60px;
+  }
+
+  /* Footer */
+
+  .footer-container div {
+    font-size: 1.4em;
   }
 }
 
@@ -495,4 +610,85 @@ body {
   .project_site {
     font-size: 1.2em;
   }
+
+  /* Contact Section */
+
+  .actual {
+    font-size: 1.6em;
+  }
+
+  .resume-dl {
+    font-size: 1.6em;
+  }
+
+  .contact-interior img {
+    width: 260px;
+  }
+
+  /* Footer */
+
+  .footer-container div {
+    font-size: 1.6em;
+  }
 }
+
+/* .contact-interior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: none;
+  width: 80%;
+}
+
+.email-container {
+  text-align: center;
+  width: 400px;
+  height: 60px;
+}
+
+.resume-container {
+  text-align: center;
+  width: 400px;
+  height: 60px;
+}
+
+.contact-interior img {
+  width: 140px;
+} */
+
+/* Disappearing Text / Hover */
+
+/* .email {
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  animation-name: fadeInDown;
+  width: 400px;
+}
+
+.actual {
+  position: absolute;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  opacity: 0;
+  animation-name: fadeOutDown;
+  width: 400px;
+}
+
+.email-container a:link,
+.email-container a:visited {
+  color: black;
+}
+
+.email-container:hover .email {
+  animation-name: fadeOutUp;
+}
+
+.email-container:hover .actual {
+  display: block;
+  animation-name: fadeInUp;
+} */

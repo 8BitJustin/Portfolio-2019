@@ -21,10 +21,18 @@ class NavSocialOverlay extends Component {
         />
         <div className="nav-social-overlay-container">
           <div className="nav-social-overlay-icons">
-            <img src={LinkedIn} alt="linkedin" />
-            <img src={Github} alt="github" />
-            <img src={Instagram} alt="instagram" />
-            <img src={Dribbble} alt="dribbble" />
+            <a href="https://www.linkedin.com/feed/" target="_blank">
+              <img src={LinkedIn} alt="LinkedIn" />
+            </a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank">
+              <img src={Instagram} alt="Instagram" />
+            </a>
+            <a href="https://github.com/8BitJustin" target="_blank">
+              <img src={Github} alt="Github" />
+            </a>
+            <a href="https://dribbble.com/" target="_blank">
+              <img src={Dribbble} alt="Dribbble" />
+            </a>
           </div>
         </div>
       </div>

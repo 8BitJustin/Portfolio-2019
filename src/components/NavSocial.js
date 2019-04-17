@@ -10,10 +10,18 @@ class NavSocial extends Component {
   render() {
     return (
       <div className="nav-icons">
-        <img src={LinkedIn} alt="LinkedIn" />
-        <img src={Instagram} alt="Instagram" />
-        <img src={Github} alt="Github" />
-        <img src={Dribbble} alt="Dribbble" />
+        <a href="https://www.linkedin.com/feed/" target="_blank">
+          <img src={LinkedIn} alt="LinkedIn" />
+        </a>
+        <a href="https://www.instagram.com/?hl=en" target="_blank">
+          <img src={Instagram} alt="Instagram" />
+        </a>
+        <a href="https://github.com/8BitJustin" target="_blank">
+          <img src={Github} alt="Github" />
+        </a>
+        <a href="https://dribbble.com/" target="_blank">
+          <img src={Dribbble} alt="Dribbble" />
+        </a>
       </div>
     );
   }

@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import Entry from "./pages/Entry";
 import About from "./pages/About";
 import Work from "./pages/Work";
-import Blog from "./pages/Blog";
+// import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 import Navbar from "./components/Navbar";
 
 class App extends Component {
@@ -14,8 +15,9 @@ class App extends Component {
         <Entry />
         <About />
         <Work />
-        <Blog />
+        {/* <Blog /> */}
         <Contact />
+        <Footer />
       </div>
     );
   }
