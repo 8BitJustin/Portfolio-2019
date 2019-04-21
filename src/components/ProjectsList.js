@@ -21,8 +21,7 @@ const ProjectsList = [
     title: "Street Taco",
     subtitle: "Personal Site",
     git: "https://github.com/8BitJustin/Street-Taco-Site",
-    site:
-      "http://http://jrowebsitetesting.x10host.com/.arizonataxandbusiness.com/"
+    site: "http://http://jrowebsitetesting.x10host.com/"
   },
   {
     id: 4,
