@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Selfie from "../images/selfie.jpg";
+import Selfie from "../images/bwSelfie01.jpg";
 import randomQuote from "../components/Quotes";
 import QuotesDisplay from "../components/QuotesDisplay";
 

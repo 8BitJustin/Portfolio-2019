@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AZ from "../images/arizona-outline-logo.png";
-import Phx from "../images/phoenixDurrTongue.jpg";
+import Phx from "../files/JustinResumeApr2019.pdf";
 
 class Contact extends Component {
   state = {};
