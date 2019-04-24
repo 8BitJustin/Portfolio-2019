@@ -278,7 +278,7 @@ body {
   width: 90%;
 }
 
-/* Project Card */
+/* Project Card within Work */
 
 .project_card {
   width: 300px;
@@ -338,10 +338,10 @@ body {
 
 /* Blog */
 
-.blog-page {
+/* .blog-page {
   height: 100vh;
   background-color: whitesmoke;
-}
+} */
 
 /* Contact */
 
@@ -432,6 +432,8 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  /* Navbar */
+
   .share-icon,
   .link-icon {
     display: none;
@@ -442,9 +444,13 @@ body {
     display: block;
   }
 
+  /* Entry Page */
+
   .logo img {
     width: 200px;
   }
+
+  /* About Page */
 
   .about-page {
     flex-direction: row;
@@ -484,11 +490,13 @@ body {
     font-size: 1.2em;
   }
 
+  /* Work Page */
+
   .work-header h1 {
     font-size: 2em;
   }
 
-  /* Project Card */
+  /* Project Card within Work Page */
 
   .projects_list_container {
     width: 80%;
@@ -514,7 +522,7 @@ body {
     font-size: 1.2em;
   }
 
-  /* Contact Section */
+  /* Contact Page */
 
   .contact-interior img {
     width: 200px;
@@ -529,12 +537,14 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  /* About Page */
+
   .self-container img {
     width: 300px;
     border-radius: 150px;
   }
 
-  /* Contact Section */
+  /* Contact Page */
 
   .contact-interior {
     flex-direction: row;
@@ -567,9 +577,13 @@ body {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  /* Entry Page */
+
   .logo img {
     width: 260px;
   }
+
+  /* About Page */
 
   .quote-container {
     width: 35%;
@@ -611,7 +625,7 @@ body {
     font-size: 1.2em;
   }
 
-  /* Contact Section */
+  /* Contact Page */
 
   .actual {
     font-size: 1.6em;
@@ -631,64 +645,3 @@ body {
     font-size: 1.6em;
   }
 }
-
-/* .contact-interior {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  margin: none;
-  width: 80%;
-}
-
-.email-container {
-  text-align: center;
-  width: 400px;
-  height: 60px;
-}
-
-.resume-container {
-  text-align: center;
-  width: 400px;
-  height: 60px;
-}
-
-.contact-interior img {
-  width: 140px;
-} */
-
-/* Disappearing Text / Hover */
-
-/* .email {
-  position: absolute;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  animation-name: fadeInDown;
-  width: 400px;
-}
-
-.actual {
-  position: absolute;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  opacity: 0;
-  animation-name: fadeOutDown;
-  width: 400px;
-}
-
-.email-container a:link,
-.email-container a:visited {
-  color: black;
-}
-
-.email-container:hover .email {
-  animation-name: fadeOutUp;
-}
-
-.email-container:hover .actual {
-  display: block;
-  animation-name: fadeInUp;
-} */
