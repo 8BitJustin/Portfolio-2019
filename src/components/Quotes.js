@@ -30,6 +30,22 @@ const Quotes = [
     quote:
       "Success consists of going from failure to failure without loss of enthusiasm.",
     author: "Winston Churchill"
+  },
+  {
+    id: 7,
+    quote: "The biggest risk is not taking any risk...",
+    author: "Mark Zuckerberg"
+  },
+  {
+    id: 8,
+    quote:
+      "Make new mistakes. Make glorious, amazing mistakes. Make mistakes nobody’s ever made before.",
+    author: "Neil Gaiman"
+  },
+  {
+    id: 9,
+    quote: "Failure is success in progress.",
+    author: "Albert Einstein"
   }
 ];
 
