@@ -20,13 +20,8 @@ class About extends Component {
         </div>
         <div className="details-container">
           <p className="details-container-top">
-            Best of days to you! I'm Justin and I'm a self-taught web designer
-            and developer who simply enjoys bringing imagination to reality from
-            only a simple idea. Currently I'm located in Tucson, Arizona, and
-            have been on the path to becoming a software engineer since June
-            2015. It was then that I decided that I was ready to develop an
-            actual skill set with something I've always had an interest in.
-            Since then, I've done the following:
+            Hi, I'm Justin, a self-taught web designer &amp; developer that
+            loves to bring imagination to life! From simple ideas I've...
           </p>
           <ul>
             <li>
@@ -43,10 +38,8 @@ class About extends Component {
             </li>
           </ul>
           <p className="details-container-top">
-            In this short time, I've studied and learned a few different
-            languages. I've mainly focused on front-end web development, but
-            have also toyed with mobile apps and look forward to exploring
-            anything beyond. Languages and libraries I've studied with include:{" "}
+            In a short time, I've studied and learned a few different languages
+            and libraries including...{" "}
             <span className="langHighlight">HTML</span>,{" "}
             <span className="langHighlight">CSS</span>,{" "}
             <span className="langHighlight">JavaScript</span>,{" "}
@@ -59,7 +52,9 @@ class About extends Component {
           </p>
           <p className="details-container-bot">
             I'm absolutely not limited to the above, as I am always eager to
-            learn something new.
+            learn something new. Currently my skillset has me focused mainly on
+            <span className="langHighlight"> Front-End Development</span>, but
+            I'm ready to tackle any challenge.
           </p>
         </div>
       </div>
