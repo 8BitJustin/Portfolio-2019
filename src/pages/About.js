@@ -39,22 +39,14 @@ class About extends Component {
           </ul>
           <p className="details-container-top">
             In a short time, I've studied and learned a few different languages
-            and libraries including...{" "}
-            <span className="langHighlight">HTML</span>,{" "}
-            <span className="langHighlight">CSS</span>,{" "}
-            <span className="langHighlight">JavaScript</span>,{" "}
-            <span className="langHighlight">jQuery</span>,{" "}
-            <span className="langHighlight">Bootstrap 3/4</span>,{" "}
-            <span className="langHighlight">Python</span>,{" "}
-            <span className="langHighlight">React.JS</span> (this site was
-            created using React.JS), and{" "}
-            <span className="langHighlight">React Native</span>.
+            and libraries including...HTML, CSS, JavaScript, jQuery, Bootstrap
+            3/4, Python, React.JS (this site was created using React.JS), and
+            React Native.
           </p>
           <p className="details-container-bot">
             I'm absolutely not limited to the above, as I am always eager to
             learn something new. Currently my skillset has me focused mainly on
-            <span className="langHighlight"> Front-End Development</span>, but
-            I'm ready to tackle any challenge.
+            Front-End Development, but I'm ready to tackle any challenge.
           </p>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Logo from "../images/logo-text-roundedtext.png";
+import Logo from "../images/logo-text-roundedtext-rose.png";
 
 class Entry extends Component {
   state = {};

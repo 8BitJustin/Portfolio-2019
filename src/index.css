@@ -78,8 +78,8 @@ body {
 
 .nav-links > .active {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
+  text-shadow: -1px -1px 0 #ff5050, 1px -1px 0 #ff5050, -1px 1px 0 #ff5050,
+    1px 1px 0 #ff5050;
 }
 
 /***********************************************/
@@ -179,7 +179,7 @@ body {
 
 .entry-page {
   height: 100vh;
-  background-color: whitesmoke;
+  background-color: #fefefe;
 }
 
 .logo-container {
@@ -197,7 +197,7 @@ body {
 
 .about-page {
   padding: 80px 30px;
-  background-color: whitesmoke;
+  background-color: #fefefe;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -241,18 +241,18 @@ body {
   margin-top: 30px;
 }
 
-.langHighlight {
+/* .langHighlight {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-  letter-spacing: 1px;
-}
+  text-shadow: -1px -1px 0 #ff5050, 1px -1px 0 #ff5050, -1px 1px 0 #ff5050,
+    1px 1px 0 #ff5050;
+  letter-spacing: 0.07em;
+} */
 
 /* Work */
 
 .work-page {
   padding: 80px 30px;
-  background-color: whitesmoke;
+  background-color: #fefefe;
 }
 
 .work-header {
@@ -292,8 +292,8 @@ body {
 }
 
 .project_card:hover {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #ff5050;
+  border-bottom: 2px solid #ff5050;
 }
 
 .project_title {
@@ -330,12 +330,12 @@ body {
   color: black;
 }
 
-.project_git:hover,
+/* .project_git:hover,
 .project_site:hover {
   color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
+  text-shadow: -1px -1px 0 #ff5050, 1px -1px 0 #ff5050, -1px 1px 0 #ff5050,
+    1px 1px 0 #ff5050;
+} */
 
 /* Blog */
 
@@ -348,7 +348,7 @@ body {
 
 .contact-page {
   height: 100vh;
-  background-color: whitesmoke;
+  background-color: #fefefe;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -460,8 +460,8 @@ body {
 
   .quote-container {
     width: 50%;
-    border-left: 2px solid #cdcdcd;
-    border-right: 2px solid #cdcdcd;
+    border-left: 2px solid #ff5050;
+    border-right: 2px solid #ff5050;
     border-radius: 10px;
   }
 
