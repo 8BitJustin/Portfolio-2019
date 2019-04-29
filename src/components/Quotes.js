@@ -46,6 +46,16 @@ const Quotes = [
     id: 9,
     quote: "Failure is success in progress.",
     author: "Albert Einstein"
+  },
+  {
+    id: 10,
+    quote: "Nothing is impossible, the word itself says 'I'm possible'!",
+    author: "Audrey Hepburn"
+  },
+  {
+    id: 11,
+    quote: "You miss 100 percent of the shots you never take.",
+    author: "Wayne Gretzky"
   }
 ];
 
