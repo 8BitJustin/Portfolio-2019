@@ -175,6 +175,12 @@ body {
   padding: 70px 20px 0;
 }
 
+/* Misc */
+
+.rose-color {
+  color: #ff5050;
+}
+
 /* Entry */
 
 .entry-page {
