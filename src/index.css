@@ -179,7 +179,8 @@ body {
 
 .entry-page {
   height: 100vh;
-  background-color: #fefefe;
+  background-color: whitesmoke;
+  border-bottom: 5px solid #fefefe;
 }
 
 .logo-container {
@@ -197,11 +198,13 @@ body {
 
 .about-page {
   padding: 80px 30px;
-  background-color: #fefefe;
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-top: 5px solid #fefefe;
+  border-bottom: 5px solid #fefefe;
 }
 
 .self-container {
@@ -252,7 +255,9 @@ body {
 
 .work-page {
   padding: 80px 30px;
-  background-color: #fefefe;
+  background-color: whitesmoke;
+  border-top: 5px solid #fefefe;
+  border-bottom: 5px solid #fefefe;
 }
 
 .work-header {
@@ -348,10 +353,12 @@ body {
 
 .contact-page {
   height: 100vh;
-  background-color: #fefefe;
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top: 5px solid #fefefe;
+  border-bottom: 5px solid #fefefe;
 }
 
 .contact-interior {
@@ -416,6 +423,7 @@ body {
 .footer-container {
   height: 60px;
   background-color: whitesmoke;
+  border-top: 5px solid #fefefe;
 }
 
 .footer-container div {
