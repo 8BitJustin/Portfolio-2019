@@ -10,12 +10,15 @@ class NavSocial extends Component {
   render() {
     return (
       <div className="nav-icons">
+        {/* eslint-disable-next-line */}
         <a href="https://www.linkedin.com/in/justinolson34/" target="_blank">
           <img src={LinkedIn} alt="LinkedIn" />
         </a>
+        {/* eslint-disable-next-line */}
         <a href="https://www.instagram.com/?hl=en" target="_blank">
           <img src={Instagram} alt="Instagram" />
         </a>
+        {/* eslint-disable-next-line */}
         <a href="https://github.com/8BitJustin" target="_blank">
           <img src={Github} alt="Github" />
         </a>

@@ -18,6 +18,7 @@ class Contact extends Component {
             <img src={AZ} alt="Arizona Outline" />
           </div>
           <div className="resume-container">
+        {/* eslint-disable-next-line */}
             <a href={Phx} target="_blank">
               <h1 className="resume-dl animated">view r&#233;sum&#233; .pdf</h1>
             </a>
