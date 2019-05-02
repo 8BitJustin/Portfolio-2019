@@ -298,15 +298,6 @@ body {
   height: 144px;
   margin: 0 30px 30px;
   text-align: center;
-  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(100%); /* FF 35+ */
-  transition: filter .2s ease-in-out;
-}
-
-.project_card:hover {
-  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
-  filter: grayscale(0%); /* FF 35+ */
-  
 }
 
 .project_title {
@@ -524,6 +515,14 @@ body {
 
   .project_card {
     width: 240px;
+    -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); /* FF 35+ */
+    transition: filter .2s ease-in-out;
+  }
+  
+  .project_card:hover {
+    -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(0%); /* FF 35+ */
   }
 
   .project_title {
