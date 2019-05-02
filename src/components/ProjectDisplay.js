@@ -3,7 +3,7 @@ import React from "react";
 const ProjectDisplay = props => {
   if (props.site === "") {
     return (
-      <div className="project_card">
+      <div className="project_card" style = {{backgroundImage: 'url(' + props.image + ')'}}>
         <h4 className="project_title">{props.title}</h4>
         <h5 className="project_subtitle">{props.subtitle}</h5>
         {/* eslint-disable-next-line */}
@@ -14,7 +14,7 @@ const ProjectDisplay = props => {
     );
   } else {
     return (
-      <div className="project_card">
+      <div className="project_card" style = {{backgroundImage: 'url(' + props.image + ')'}}>
         <h4 className="project_title">{props.title}</h4>
         <h5 className="project_subtitle">{props.subtitle}</h5>
         {/* eslint-disable-next-line */}

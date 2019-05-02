@@ -295,42 +295,58 @@ body {
 
 .project_card {
   width: 300px;
+  height: 144px;
   margin: 0 30px 30px;
   text-align: center;
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+  transition: filter .2s ease-in-out;
+}
+
+.project_card:hover {
+  -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(0%); /* FF 35+ */
+  
 }
 
 .project_title {
   margin: 32px 0 0 0;
+  background-color: rgba(255, 80, 80, 0.85);
+  color: white;
 }
 
 .project_subtitle {
   margin: 8px 0 6px 0;
+  background-color: rgba(255, 80, 80, 0.85);
+  color: white;
 }
 
 .project_git {
   display: inline-block;
   font-size: 0.8em;
+  width: 50%;
   text-decoration: none;
-  margin-bottom: 32px;
-  transition-duration: 0.2s;
+  margin-bottom: 6px;
+  background-color: rgba(255, 80, 80, 0.85);
 }
 
 .project_site {
   display: inline-block;
   font-size: 0.8em;
+  width: 50%;
   text-decoration: none;
-  margin: 0 0 32px 16px;
-  transition-duration: 0.2s;
+  margin: 0 0 32px;
+  background-color: rgba(255, 80, 80, 0.85);
 }
 
 .project_git:link,
 .project_site:link {
-  color: black;
+  color: white;
 }
 
 .project_git:visited,
 .project_site:visited {
-  color: black;
+  color: white;
 }
 
 /* .project_git:hover,
