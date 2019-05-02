@@ -7,7 +7,7 @@ const ProjectDisplay = props => {
         <h4 className="project_title">{props.title}</h4>
         <h5 className="project_subtitle">{props.subtitle}</h5>
         {/* eslint-disable-next-line */}
-        <a href={props.git} className="project_git" target="_blank">
+        <a href={props.git} className="project_git" target="_blank" style = {{width: '100%'}}>
           Github
         </a>
       </div>
