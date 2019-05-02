@@ -301,7 +301,7 @@ body {
 }
 
 .project_title {
-  margin: 32px 0 0 0;
+  margin: 34px 0 0 0;
   background-color: rgba(255, 80, 80, 0.85);
   color: white;
 }
@@ -317,7 +317,6 @@ body {
   font-size: 0.8em;
   width: 50%;
   text-decoration: none;
-  margin-bottom: 6px;
   background-color: rgba(255, 80, 80, 0.85);
 }
 
