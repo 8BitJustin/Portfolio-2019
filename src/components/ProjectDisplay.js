@@ -19,11 +19,11 @@ const ProjectDisplay = props => {
         <h5 className="project_subtitle">{props.subtitle}</h5>
         {/* eslint-disable-next-line */}
         <a href={props.git} className="project_git" target="_blank">
-          Github
+        &#183;&nbsp;Github&nbsp;&#183;
         </a>
         {/* eslint-disable-next-line */}
         <a href={props.site} className="project_site" target="_blank">
-          Site
+        &#183;&nbsp;Site&nbsp;&#183;
         </a>
       </div>
     );
