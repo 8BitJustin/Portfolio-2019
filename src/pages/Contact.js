@@ -11,7 +11,7 @@ class Contact extends Component {
           <div className="email-container">
             <h1 className="email animated">Email</h1>
             <a href="mailto:jolsondigital@gmail.com">
-              <h1 className="actual animated">jolsondigital@gmail.com</h1>
+              <h1 className="actual animated">jolsondigital@gmail<span className="rose-color">.com</span></h1>
             </a>
           </div>
           <div className="contact-img-container">
@@ -20,7 +20,7 @@ class Contact extends Component {
           <div className="resume-container">
         {/* eslint-disable-next-line */}
             <a href={Phx} target="_blank">
-              <h1 className="resume-dl animated">view r&#233;sum&#233; .pdf</h1>
+              <h1 className="resume-dl animated">view r&#233;sum&#233; <span className="rose-color">.pdf</span></h1>
             </a>
           </div>
         </div>
