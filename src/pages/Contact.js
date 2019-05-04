@@ -20,7 +20,7 @@ class Contact extends Component {
           <div className="resume-container">
         {/* eslint-disable-next-line */}
             <a href={Phx} target="_blank">
-              <h1 className="resume-dl animated">view r&#233;sum&#233; <span className="rose-color">.pdf</span></h1>
+              <h1 className="resume-dl animated">view r&#233;sum&#233;<span className="rose-color">.pdf</span></h1>
             </a>
           </div>
         </div>
