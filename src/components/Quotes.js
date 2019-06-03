@@ -56,6 +56,16 @@ const Quotes = [
     id: 11,
     quote: "You miss 100 percent of the shots you never take.",
     author: "Wayne Gretzky"
+  },
+  {
+    id: 12,
+    quote: "A goal without a plan is just a wish.",
+    author: "Antoine de Saint-Exupéry"
+  },
+  {
+    id: 13,
+    quote: "Dreams are little nudges from your soul.",
+    author: "Victoria Moran"
   }
 ];
 
