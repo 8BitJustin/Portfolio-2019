@@ -5,7 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer-container">
-        <div>&copy; 2019 JOlsonDigital All rights reserved</div>
+        <div><span className="rose-color">&copy;</span> 2019 JOlsonDigital All rights reserved</div>
       </div>
     );
   }

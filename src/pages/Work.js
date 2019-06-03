@@ -22,7 +22,7 @@ class Work extends Component {
     return (
       <div className="work-page pages" id="work">
         <div className="work-header">
-          <h1>Some of my work</h1>
+          <h1>Some of my <span className="rose-color">work</span></h1>
         </div>
         <div className="projects_container">
           <div className="projects_list_container">{ProjList}</div>

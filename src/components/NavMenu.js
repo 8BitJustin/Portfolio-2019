@@ -11,7 +11,7 @@ class NavMenu extends Component {
           to="about"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={5}
           duration={500}
         >
           About
@@ -21,7 +21,7 @@ class NavMenu extends Component {
           to="work"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={5}
           duration={500}
         >
           Work
@@ -41,7 +41,7 @@ class NavMenu extends Component {
           to="contact"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={5}
           duration={500}
         >
           Contact
