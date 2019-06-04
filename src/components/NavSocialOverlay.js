@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 import Close from "../images/close.png";
 import LinkedIn from "../images/linkedin-w.png";
-import Instagram from "../images/instagram-w.png";
 import Github from "../images/github-w.png";
 // import Dribbble from "../images/dribbble-w.png";
 
@@ -21,21 +20,17 @@ class NavSocialOverlay extends Component {
         />
         <div className="nav-social-overlay-container">
           <div className="nav-social-overlay-icons">
-          {/* eslint-disable-next-line */}
-            <a href="https://www.linkedin.com/in/justinolson34/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/justinolson34/"
+              // eslint-disable-next-line
+              target="_blank"
+            >
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
-          {/* eslint-disable-next-line */}
-            <a href="https://www.instagram.com/?hl=en" target="_blank">
-              <img src={Instagram} alt="Instagram" />
-            </a>
-          {/* eslint-disable-next-line */}
+            {/* eslint-disable-next-line */}
             <a href="https://github.com/8BitJustin" target="_blank">
               <img src={Github} alt="Github" />
             </a>
-            {/* <a href="https://dribbble.com/" target="_blank">
-              <img src={Dribbble} alt="Dribbble" />
-            </a> */}
           </div>
         </div>
       </div>

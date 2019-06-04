@@ -44,9 +44,9 @@ class About extends Component {
             React Native.
           </p>
           <p className="details-container-bot">
-            I'm not limited to the above, and I'm eager to
-            learn new things. Currently my skillset has me focused mainly on
-            Front-End Development, but I'm ready to tackle any challenge.
+            I'm not limited to the above, and I'm eager to learn new things.
+            Currently my skillset has me focused mainly on Front-End
+            Development, but I'm ready to tackle any challenge.
           </p>
         </div>
       </div>
