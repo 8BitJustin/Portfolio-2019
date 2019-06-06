@@ -1,4 +1,6 @@
-const Quotes = [
+import React, { Component } from "react";
+
+const quoteList = [
   {
     id: 1,
     quote: "Strive not to be a success, but rather to be of value.",
@@ -69,6 +71,41 @@ const Quotes = [
   }
 ];
 
-const randomQuote = Quotes[Math.floor(Math.random() * Quotes.length)];
+class Quotes extends Component {
+  constructor() {
+    super();
+    this.state = { textIdx: 0 };
+  }
 
-export default randomQuote;
+  componentDidMount() {
+    this.timeout = setInterval(() => {
+      let currentIdx = this.state.textIdx;
+      this.setState({ textIdx: currentIdx + 1 });
+    }, 6000);
+  }
+
+  componentDidUnmount() {
+    clearInterval(this.timeout);
+  }
+
+  render() {
+    let rotatingQuote = quoteList[this.state.textIdx % quoteList.length];
+    return (
+      <figure>
+        <blockquote>
+          <span className="coloredQuotes">"</span>
+          {rotatingQuote.quote}
+          <span className="coloredQuotes">"</span>
+        </blockquote>
+        <footer>
+          <span className="coloredQuotes">-</span> {rotatingQuote.author}
+        </footer>
+      </figure>
+    );
+  }
+}
+
+export default Quotes;
+
+// No longer used, orignally used to random pull a quote into the About page
+// const randomQuote = Quotes[Math.floor(Math.random() * Quotes.length)];

@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import randomQuote from "../components/Quotes";
-import QuotesDisplay from "../components/QuotesDisplay";
+import Quotes from "../components/Quotes";
 
 class About extends Component {
   state = {};
@@ -8,11 +7,7 @@ class About extends Component {
     return (
       <div className="about-page pages" id="about">
         <div className="quote-container">
-          <QuotesDisplay
-            id={randomQuote.id}
-            quote={randomQuote.quote}
-            author={randomQuote.author}
-          />
+          <Quotes />
         </div>
         <div className="details-container">
           <p className="details-container-top">
