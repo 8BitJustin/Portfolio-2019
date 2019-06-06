@@ -249,12 +249,9 @@ body {
   margin-top: 30px;
 }
 
-/* .langHighlight {
-  color: white;
-  text-shadow: -1px -1px 0 #ff5050, 1px -1px 0 #ff5050, -1px 1px 0 #ff5050,
-    1px 1px 0 #ff5050;
-  letter-spacing: 0.07em;
-} */
+.coloredQuotes {
+  color: rgba(255, 80, 80, 0.85);
+}
 
 /* Work */
 
@@ -500,10 +497,6 @@ body {
 
   .details-container > ul > li {
     font-size: 1.2em;
-  }
-
-  .coloredQuotes {
-    color: rgba(255, 80, 80, 0.85);
   }
 
   /* Work Page */
