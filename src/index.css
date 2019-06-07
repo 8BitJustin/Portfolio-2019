@@ -226,6 +226,7 @@ body {
 
 .quote-container {
   font-size: 1em;
+  height: 180px;
 }
 
 .quote-container blockquote {
@@ -237,7 +238,7 @@ body {
 }
 
 .details-container {
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 .details-container p {
