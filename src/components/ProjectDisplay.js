@@ -17,7 +17,7 @@ const ProjectDisplay = props => {
           target="_blank"
           style={{ width: "100%" }}
         >
-          &#183;&nbsp;Github&nbsp;&#183;
+          <button>Github</button>
         </a>
       </div>
     );
@@ -31,11 +31,11 @@ const ProjectDisplay = props => {
         <h5 className="project_subtitle">{props.subtitle}</h5>
         {/* eslint-disable-next-line */}
         <a href={props.git} className="project_git" target="_blank">
-          &#183;&nbsp;Github&nbsp;&#183;
+          <button>Github</button>
         </a>
         {/* eslint-disable-next-line */}
         <a href={props.site} className="project_site" target="_blank">
-          &#183;&nbsp;Site&nbsp;&#183;
+          <button>Site</button>
         </a>
       </div>
     );

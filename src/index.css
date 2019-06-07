@@ -337,6 +337,22 @@ body {
   color: white;
 }
 
+.project_git button,
+.project_site button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.project_git button:hover,
+.project_site button:hover {
+  color: rgba(255, 80, 80, 1);
+  background-color: rgb(255, 255, 255, 1);
+  cursor: pointer;
+}
+
 /* .project_git:hover,
 .project_site:hover {
   color: white;
