@@ -345,6 +345,7 @@ body {
   border-radius: 5px;
   margin-bottom: 2px;
   padding-top: 2px;
+  font-size: 0.85em;
 }
 
 .project_git button:hover,
