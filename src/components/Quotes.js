@@ -68,6 +68,12 @@ const quoteList = [
     id: 13,
     quote: "Dreams are little nudges from your soul.",
     author: "Victoria Moran"
+  },
+  {
+    id: 14,
+    quote:
+      "Embrace your dreams. If you want to be a hero, you need to have dreams.",
+    author: "Zack Fair"
   }
 ];
 
