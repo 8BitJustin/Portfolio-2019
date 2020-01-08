@@ -1,9 +1,9 @@
-import azTax from "../images/azTaxBG.png"
-import rrPizza from "../images/rrPizzaBG.png"
-import street from "../images/streetBG.png"
-import origPort from "../images/origPortBG.png"
-import jroAsst from "../images/jroAsstBG.png"
-import abacus from "../images/abacus.png"
+import azTax from "../images/azTaxBG.png";
+import rrPizza from "../images/rrPizzaBG.png";
+import street from "../images/streetBG.png";
+import origPort from "../images/origPortBG.png";
+import jroAsst from "../images/jroAsstBG.png";
+import abacus from "../images/abacus.png";
 
 const ProjectsList = [
   {
@@ -48,7 +48,7 @@ const ProjectsList = [
     title: "JRO Assistance Form",
     subtitle: "Work Site",
     git: "https://github.com/8BitJustin/JRO-Assistance-Form",
-    site: "http://www.http://jroassistanceform.x10host.com/.com/",
+    site: "http://jroassistanceform.x10host.com/",
     image: jroAsst
   },
   {
