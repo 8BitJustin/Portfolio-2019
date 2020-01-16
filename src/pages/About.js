@@ -11,17 +11,22 @@ class About extends Component {
         </div>
         <div className="details-container">
           <p className="details-container-top">
-            I'm Justin, a front-end web developer &amp; python developer who
+            I'm Justin, a freelance front-end web designer &amp; developer who
             loves to bring imagination to life.
           </p>
           <p className="details-container-bot">
-            I've mainly studied web design and development, with special
-            attention given to both JavaScript and React. Now, my current goal
-            is to become a Data Analyst/Engineer with Python. I've been learning
-            many of Pythons libraries, including (but not limited to) Pandas,
-            NumPy, Folium, Flask, OpenCV, just to name a few. I'm eager for what
-            comes my way, as I have the willingness to consistantly learn and
-            tackle any challenge.
+            In 2015, I made the decision to add actual value to myself, and
+            create a skillset that would make me stand out above many others.
+            Although there are no exact numbers, it is estimated that less than
+            1% of the worlds population can code. I'm proud to say I'm within
+            that rather small fraction.
+          </p>
+          <p className="details-container-bot">
+            In this short time, I've learned and am familiar with numerous
+            languages, including (but not limited to): HTML, CSS, JavaScript,
+            React, Python, and many of the libraries each work with. I'm eager
+            for any challenge, as those are what help me learn and grow as a
+            front-end web designer and developer.
           </p>
         </div>
       </div>
