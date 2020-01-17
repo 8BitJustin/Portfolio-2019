@@ -30,7 +30,7 @@ const ProjectsList = [
     title: "Street Taco",
     subtitle: "Personal Site",
     git: "https://github.com/8BitJustin/Street-Taco-Site",
-    site: "http://jrowebsitetesting.x10host.com/",
+    site: "https://sttacosite.netlify.com/",
     image: street
   },
   {
@@ -39,7 +39,7 @@ const ProjectsList = [
     title: "Original Portfolio",
     subtitle: "Personal Site",
     git: "https://github.com/8BitJustin/Portfolio-Website-3",
-    site: "https://www.jolsondigital.com/",
+    site: "https://olderportfolio.netlify.com/",
     image: origPort
   },
   {
