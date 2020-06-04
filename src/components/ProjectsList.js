@@ -13,7 +13,7 @@ const ProjectsList = [
     subtitle: "Freelance Site",
     git: "https://github.com/8BitJustin/Taxsite2018",
     site: "http://www.arizonataxandbusiness.com/",
-    image: azTax
+    image: azTax,
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const ProjectsList = [
     subtitle: "Freelance Site",
     git: "https://github.com/8BitJustin/R-R-Pizza-Website",
     site: "https://www.rrpizzamarana.com/",
-    image: rrPizza
+    image: rrPizza,
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const ProjectsList = [
     subtitle: "Personal Site",
     git: "https://github.com/8BitJustin/Street-Taco-Site",
     site: "https://sttacosite.netlify.com/",
-    image: street
+    image: street,
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const ProjectsList = [
     subtitle: "Personal Site",
     git: "https://github.com/8BitJustin/Portfolio-Website-3",
     site: "https://olderportfolio.netlify.com/",
-    image: origPort
+    image: origPort,
   },
   {
     id: 5,
@@ -48,8 +48,8 @@ const ProjectsList = [
     title: "JRO Assistance Form",
     subtitle: "Work Site",
     git: "https://github.com/8BitJustin/JRO-Assistance-Form",
-    site: "http://jroassistanceform.x10host.com/",
-    image: jroAsst
+    site: "https://jroassistanceform.netlify.app",
+    image: jroAsst,
   },
   {
     id: 6,
@@ -58,8 +58,8 @@ const ProjectsList = [
     subtitle: "Mobile App",
     git: "https://github.com/8BitJustin/Loot-Abacus",
     site: "",
-    image: abacus
-  }
+    image: abacus,
+  },
 ];
 
 export default ProjectsList;
